@@ -58,6 +58,7 @@ h4 {
 h5 {
     text-transform: uppercase;
     font-weight: 500;
+    font-size: 1.1rem;
 }
 
 .smaller {
@@ -76,4 +77,8 @@ h5 {
     margin-top: 5px;
     margin-bottom: 5px;
     background-color: #0096D5;
+}
+
+.project p {
+    font-size: 0.9rem;
 }
