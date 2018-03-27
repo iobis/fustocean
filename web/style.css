@@ -29,8 +29,11 @@ body, html {
     vertical-align: middle;
 }
 
-.btn-register {
+.btn-register, .btn-register:active, .btn-register:focus {
     color: #ffffff;
+    outline: 0 !important;
+    border: 0;
+    box-shadow: none;
 }
 
 h2 {
