@@ -30,7 +30,7 @@ body, html {
 }
 
 .btn-register, .btn-register:active, .btn-register:focus {
-    color: #ffffff;
+    color: #ffffff !important;
     outline: 0 !important;
     border: 0;
     box-shadow: none;
@@ -58,6 +58,7 @@ h5 {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1.1rem;
+    margin-top: 20px;
 }
 
 .smaller {
@@ -84,4 +85,15 @@ h5 {
 
 #venue {
     padding-bottom: 30px;
+}
+
+a, a:active, a:visited {
+    color: #0096D5;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #0096D5;
+    color: #ffffff;
+    text-decoration: none;
 }
