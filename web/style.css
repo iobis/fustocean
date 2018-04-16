@@ -29,11 +29,12 @@ body, html {
     vertical-align: middle;
 }
 
-.btn-register, .btn-register:active, .btn-register:focus {
+.btn-register, .btn-register:hover, .btn-register:active, .btn-register:focus {
     color: #ffffff !important;
     outline: 0 !important;
     border: 0;
     box-shadow: none;
+    background-color: #0096D5;
 }
 
 h2 {
@@ -97,3 +98,11 @@ a:hover {
     color: #ffffff;
     text-decoration: none;
 }
+
+.btn-light, .btn-light:active, .btn-light:visited, .btn-light:hover {
+    border: 1px solid #eaeaea;
+    background-color: #eaeaea;
+    color: #000000 !important;
+    text-decoration: none;
+}
+
