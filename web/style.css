@@ -106,3 +106,7 @@ a:hover {
     text-decoration: none;
 }
 
+.time {
+    white-space: nowrap;
+}
+
